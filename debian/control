@@ -11,13 +11,14 @@ Build-Depends:
  wireplumber,
  pipewire,
  audioreach-pal,
- audioreach-pal-headers,
+ audioreach-pal-dev,
  audioreach-graphmgr,
+ audioreach-graphmgr-dev,
  libexpat1-dev,
- libtinyalsa-dev,
- audio-route
 Standards-Version: 4.6.2
-Homepage: https://github.com/AudioReach/audioreach-pipewire-plugin
+Homepage: https://github.com/Audioreach/audioreach-pipewire-plugin
+Vcs-Git: https://github.com/qualcomm-linux/pkg-audioreach-pipewire-plugin -b debian/latest
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-audioreach-pipewire-plugin
 
 Package: audioreach-pipewire-plugin
 Architecture: arm64
@@ -31,4 +32,6 @@ Depends:
  audioreach-pal,
  audioreach-graphmgr,
  libexpat1-dev,
-Description: PipeWire PAL Plugin Package.
+Description: AudioReach PipeWire plugin
+ Provides a PipeWire module that integrates AudioReach PAL
+ devices with the PipeWire audio server.
