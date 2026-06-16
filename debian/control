@@ -25,13 +25,11 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- libpipewire-0.3-dev,
- libspa-0.2-dev,
  wireplumber,
  pipewire,
  audioreach-pal,
  audioreach-graphmgr,
- libexpat1-dev,
-Description: AudioReach PipeWire plugin
+Description: PipeWire plugin for AudioReach audio framework
  Provides a PipeWire module that integrates AudioReach PAL
- devices with the PipeWire audio server.
+ devices with the PipeWire audio server, enabling audio routing
+ and processing through AudioReach DSP pipelines.
