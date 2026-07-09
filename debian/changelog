@@ -1,5 +1,5 @@
-audioreach-pipewire-plugin (1.0.0-1) UNRELEASED; urgency=low
+audioreach-pipewire-plugin (0.0+git20260515-0qli+staging1~) UNRELEASED; urgency=low
 
   * Initial release.
 
- -- Maintainer: Saurav Kumar <sauravk@qti.qualcomm.com>  Wed, 10 Apr 2025 20:14:14 -0800
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 09 Jul 2026 15:52:21 +0200

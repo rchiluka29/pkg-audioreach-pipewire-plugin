@@ -2,6 +2,8 @@ Source: audioreach-pipewire-plugin
 Section: misc
 Priority: optional
 Maintainer: Saurav Kumar <sauravk@qti.qualcomm.com>
+Uploaders:
+ Agathe Porte <agathe.porte@oss.qualcomm.com>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
@@ -15,6 +17,7 @@ Build-Depends:
  audioreach-graphmgr,
  audioreach-graphmgr-dev,
  libexpat1-dev,
+ libtinyalsa-dev,
 Standards-Version: 4.6.2
 Homepage: https://github.com/Audioreach/audioreach-pipewire-plugin
 Vcs-Git: https://github.com/qualcomm-linux/pkg-audioreach-pipewire-plugin -b debian/latest
