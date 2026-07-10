@@ -2,10 +2,11 @@ audioreach-pipewire-plugin (0.0+git20260515-0qli+staging1~bpo13+1~) UNRELEASED; 
 
   * Rebuild for trixie.
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 09 Jul 2026 17:15:58 +0200
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Fri, 10 Jul 2026 14:44:11 +0200
 
-audioreach-pipewire-plugin (0.0+git20260515-0qli+staging1~) UNRELEASED; urgency=low
+audioreach-pipewire-plugin (0.0+git20260515-0qli+staging1) forky; urgency=low
 
+  [ Agathe Porte ]
   * Initial release.
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 09 Jul 2026 15:52:21 +0200
+ -- root <root@f8cea8daec54>  Fri, 10 Jul 2026 12:04:47 +0000
