@@ -1,0 +1,37 @@
+From: Chiluka Rohith <rchiluka@qti.qualcomm.com>
+Date: Sun, 13 Jul 2026 00:00:00 +0000
+Subject: [PATCH] configs: remove 90-device-detection.conf
+
+---
+ Makefile.am                      | 1 -
+ configs/90-device-detection.conf | 9 ---------
+ 2 files changed, 10 deletions(-)
+ delete mode 100644 configs/90-device-detection.conf
+
+diff --git a/Makefile.am b/Makefile.am
+index a8a98b5..b3c6046 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -21,5 +21,4 @@ install-data-hook:
+ 	mkdir -p $(DESTDIR)/usr/share/wireplumber/scripts/
+ 	$(INSTALL_DATA) $(srcdir)/configs/pw-pal-plugin.conf $(DESTDIR)/usr/share/pipewire/pipewire.conf.d/
+ 	$(INSTALL_DATA) $(srcdir)/configs/60-disable-alsa.conf $(DESTDIR)/usr/share/wireplumber/wireplumber.conf.d/
+-	$(INSTALL_DATA) $(srcdir)/configs/90-device-detection.conf  $(DESTDIR)/usr/share/wireplumber/wireplumber.conf.d/
+ 	$(INSTALL_DATA) $(srcdir)/configs/90-device-detection.lua  $(DESTDIR)/usr/share/wireplumber/scripts/
+diff --git a/configs/90-device-detection.conf b/configs/90-device-detection.conf
+deleted file mode 100644
+index 02201d2..0000000
+--- a/configs/90-device-detection.conf
++++ /dev/null
+@@ -1,9 +0,0 @@
+-# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+-# SPDX-License-Identifier: BSD-3-Clause
+-
+-wireplumber.components = [
+-  {
+-    name = 90-device-detection.lua
+-    type = script/lua
+-  }
+-]
+--
+2.39.5
